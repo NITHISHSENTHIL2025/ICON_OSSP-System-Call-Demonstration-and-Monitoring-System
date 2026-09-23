@@ -1,0 +1,185 @@
+
+ICON OSSP
+1. File system calls
+2. Process creation
+3. Program execution
+4. Parent child synchronization
+5. Error handling
+6. System call monitoring
+7. Run all
+0. Exit
+Enter choice: 
+File created successfully
+Data written successfully
+Data read from file: ICON OSSP file system call demo
+File closed successfully
+
+ICON OSSP
+1. File system calls
+2. Process creation
+3. Program execution
+4. Parent child synchronization
+5. Error handling
+6. System call monitoring
+7. Run all
+0. Exit
+Enter choice: 
+Creating child process using fork
+Child process running
+Child PID: 6211
+Parent PID: 6210
+total 208
+-rw-r--r-- 1 strix strix 110695 Sep 23 20:07 ICON_OSSP_Team13.docx
+-rw-r--r-- 1 strix strix    234 Sep 23 20:17 Makefile
+-rw-r--r-- 1 strix strix      0 Sep 23 20:07 README.md
+drwxr-xr-x 2 strix strix   4096 Sep 23 20:18 data
+drwxr-xr-x 2 strix strix   4096 Sep 23 20:07 docs
+-rwxr-xr-x 1 strix strix  17184 Sep 23 20:17 icon_ossp
+-rwxr-xr-x 1 strix strix  47392 Sep 23 20:25 icon_ossp_asan
+drwxr-xr-x 2 strix strix   4096 Sep 23 20:16 include
+drwxr-xr-x 2 strix strix   4096 Sep 23 20:25 logs
+drwxr-xr-x 2 strix strix   4096 Sep 23 20:17 src
+drwxr-xr-x 2 strix strix   4096 Sep 23 20:19 tests
+
+ICON OSSP
+1. File system calls
+2. Process creation
+3. Program execution
+4. Parent child synchronization
+5. Error handling
+6. System call monitoring
+7. Run all
+0. Exit
+Enter choice: 
+File created successfully
+Data written successfully
+Data read from file: ICON OSSP file system call demo
+File closed successfully
+
+ICON OSSP
+1. File system calls
+2. Process creation
+3. Program execution
+4. Parent child synchronization
+5. Error handling
+6. System call monitoring
+7. Run all
+0. Exit
+Enter choice: 
+Creating child process using fork
+Parent process running
+Parent PID: 6210
+Child PID: 6211
+Child process completed
+
+ICON OSSP
+1. File system calls
+2. Process creation
+3. Program execution
+4. Parent child synchronization
+5. Error handling
+6. System call monitoring
+7. Run all
+0. Exit
+Enter choice: 
+Creating child for exec demo
+Exec child completed
+
+ICON OSSP
+1. File system calls
+2. Process creation
+3. Program execution
+4. Parent child synchronization
+5. Error handling
+6. System call monitoring
+7. Run all
+0. Exit
+Enter choice: 
+Parent child synchronization demo
+Child process started
+Child process finished
+
+ICON OSSP
+1. File system calls
+2. Process creation
+3. Program execution
+4. Parent child synchronization
+5. Error handling
+6. System call monitoring
+7. Run all
+0. Exit
+Enter choice: 
+File created successfully
+Data written successfully
+Data read from file: ICON OSSP file system call demo
+File closed successfully
+
+ICON OSSP
+1. File system calls
+2. Process creation
+3. Program execution
+4. Parent child synchronization
+5. Error handling
+6. System call monitoring
+7. Run all
+0. Exit
+Enter choice: 
+Creating child process using fork
+Parent process running
+Parent PID: 6210
+Child PID: 6211
+Child process completed
+
+ICON OSSP
+1. File system calls
+2. Process creation
+3. Program execution
+4. Parent child synchronization
+5. Error handling
+6. System call monitoring
+7. Run all
+0. Exit
+Enter choice: 
+Creating child for exec demo
+Exec child completed
+
+ICON OSSP
+1. File system calls
+2. Process creation
+3. Program execution
+4. Parent child synchronization
+5. Error handling
+6. System call monitoring
+7. Run all
+0. Exit
+Enter choice: 
+Parent child synchronization demo
+Parent waiting for child
+Child exit status: 5
+Parent continues after child
+
+ICON OSSP
+1. File system calls
+2. Process creation
+3. Program execution
+4. Parent child synchronization
+5. Error handling
+6. System call monitoring
+7. Run all
+0. Exit
+Enter choice: 
+Error handling demo
+open returned: -1
+errno: 2
+Error: No such file or directory
+
+ICON OSSP
+1. File system calls
+2. Process creation
+3. Program execution
+4. Parent child synchronization
+5. Error handling
+6. System call monitoring
+7. Run all
+0. Exit
+Enter choice: 

@@ -1,0 +1,42 @@
+
+ICON OSSP
+1. File system calls
+2. Process creation
+3. Program execution
+4. Parent child synchronization
+5. Error handling
+6. System call monitoring
+7. Run all
+0. Exit
+Enter choice: 
+Creating child process using fork
+Child process running
+Child PID: 6298
+Parent PID: 6297
+
+ICON OSSP
+1. File system calls
+2. Process creation
+3. Program execution
+4. Parent child synchronization
+5. Error handling
+6. System call monitoring
+7. Run all
+0. Exit
+Enter choice: 
+Creating child process using fork
+Parent process running
+Parent PID: 6297
+Child PID: 6298
+Child process completed
+
+ICON OSSP
+1. File system calls
+2. Process creation
+3. Program execution
+4. Parent child synchronization
+5. Error handling
+6. System call monitoring
+7. Run all
+0. Exit
+Enter choice: 

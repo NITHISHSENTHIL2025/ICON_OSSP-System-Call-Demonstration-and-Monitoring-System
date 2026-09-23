@@ -1,0 +1,8 @@
+6168  clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x78971a358a10) = 6169
+6168  wait4(-1 <unfinished ...>
+6169  exit_group(0)                     = ?
+6169  +++ exited with 0 +++
+6168  <... wait4 resumed>, NULL, 0, NULL) = 6169
+6168  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=6169, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+6168  exit_group(0)                     = ?
+6168  +++ exited with 0 +++

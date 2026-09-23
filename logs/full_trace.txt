@@ -1,0 +1,71 @@
+execve("./icon_ossp", ["./icon_ossp"], 0x7ffeb0c8a980 /* 27 vars */) = 0
+brk(NULL)                               = 0x58f89fe4b000
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x78c8bc54a000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=29291, ...}) = 0
+mmap(NULL, 29291, PROT_READ, MAP_PRIVATE, 3, 0) = 0x78c8bc542000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \250\2\0\0\0\0\0"..., 832) = 832
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 840, 64) = 840
+fstat(3, {st_mode=S_IFREG|0755, st_size=2190608, ...}) = 0
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 840, 64) = 840
+mmap(NULL, 2231696, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x78c8bc200000
+mmap(0x78c8bc228000, 1671168, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x28000) = 0x78c8bc228000
+mmap(0x78c8bc3c0000, 319488, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1c0000) = 0x78c8bc3c0000
+mmap(0x78c8bc40e000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x20e000) = 0x78c8bc40e000
+mmap(0x78c8bc414000, 52624, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x78c8bc414000
+close(3)                                = 0
+mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x78c8bc53f000
+arch_prctl(ARCH_SET_FS, 0x78c8bc53f740) = 0
+set_tid_address(0x78c8bc53fd68)         = 6178
+set_robust_list(0x78c8bc53fa20, 24)     = 0
+rseq(0x78c8bc53f6a0, 0x20, 0, 0x53053053) = 0
+mprotect(0x78c8bc40e000, 16384, PROT_READ) = 0
+mprotect(0x58f86b72b000, 4096, PROT_READ) = 0
+mprotect(0x78c8bc58f000, 8192, PROT_READ) = 0
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+getrandom("\xfb\xe7\x52\xbc\xe2\x50\x20\x04", 8, GRND_NONBLOCK) = 8
+munmap(0x78c8bc542000, 29291)           = 0
+fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0), ...}) = 0
+brk(NULL)                               = 0x58f89fe4b000
+brk(0x58f89fe6c000)                     = 0x58f89fe6c000
+write(1, "\n", 1)                       = 1
+write(1, "ICON OSSP\n", 10)             = 10
+write(1, "1. File system calls\n", 21)  = 21
+write(1, "2. Process creation\n", 20)   = 20
+write(1, "3. Program execution\n", 21)  = 21
+write(1, "4. Parent child synchronization\n", 32) = 32
+write(1, "5. Error handling\n", 18)     = 18
+write(1, "6. System call monitoring\n", 26) = 26
+write(1, "7. Run all\n", 11)            = 11
+write(1, "0. Exit\n", 8)                = 8
+fstat(0, {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0
+read(0, "1\n0\n", 4096)                 = 4
+openat(AT_FDCWD, "data/sample.txt", O_WRONLY|O_CREAT|O_TRUNC, 0644) = 3
+write(1, "Enter choice: \n", 15)        = 15
+write(1, "File created successfully\n", 26) = 26
+write(3, "ICON OSSP file system call demo\n", 32) = 32
+write(1, "Data written successfully\n", 26) = 26
+close(3)                                = 0
+openat(AT_FDCWD, "data/sample.txt", O_RDONLY) = 3
+read(3, "ICON OSSP file system call demo\n", 99) = 32
+write(1, "Data read from file: ICON OSSP f"..., 53) = 53
+close(3)                                = 0
+write(1, "File closed successfully\n", 25) = 25
+write(1, "\n", 1)                       = 1
+write(1, "ICON OSSP\n", 10)             = 10
+write(1, "1. File system calls\n", 21)  = 21
+write(1, "2. Process creation\n", 20)   = 20
+write(1, "3. Program execution\n", 21)  = 21
+write(1, "4. Parent child synchronization\n", 32) = 32
+write(1, "5. Error handling\n", 18)     = 18
+write(1, "6. System call monitoring\n", 26) = 26
+write(1, "7. Run all\n", 11)            = 11
+write(1, "0. Exit\n", 8)                = 8
+write(1, "Enter choice: ", 14)          = 14
+lseek(0, -1, SEEK_CUR)                  = -1 ESPIPE (Illegal seek)
+lseek(0, -1, SEEK_CUR)                  = -1 ESPIPE (Illegal seek)
+exit_group(0)                           = ?
++++ exited with 0 +++

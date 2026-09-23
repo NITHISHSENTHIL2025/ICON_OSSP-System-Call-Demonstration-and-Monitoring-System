@@ -1,0 +1,40 @@
+
+ICON OSSP
+1. File system calls
+2. Process creation
+3. Program execution
+4. Parent child synchronization
+5. Error handling
+6. System call monitoring
+7. Run all
+0. Exit
+Enter choice: 
+Parent child synchronization demo
+Child process started
+Child process finished
+
+ICON OSSP
+1. File system calls
+2. Process creation
+3. Program execution
+4. Parent child synchronization
+5. Error handling
+6. System call monitoring
+7. Run all
+0. Exit
+Enter choice: 
+Parent child synchronization demo
+Parent waiting for child
+Child exit status: 5
+Parent continues after child
+
+ICON OSSP
+1. File system calls
+2. Process creation
+3. Program execution
+4. Parent child synchronization
+5. Error handling
+6. System call monitoring
+7. Run all
+0. Exit
+Enter choice: 

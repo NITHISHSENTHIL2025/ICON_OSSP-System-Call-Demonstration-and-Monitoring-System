@@ -1,0 +1,26 @@
+
+ICON OSSP
+1. File system calls
+2. Process creation
+3. Program execution
+4. Parent child synchronization
+5. Error handling
+6. System call monitoring
+7. Run all
+0. Exit
+Enter choice: 
+File created successfully
+Data written successfully
+Data read from file: ICON OSSP file system call demo
+File closed successfully
+
+ICON OSSP
+1. File system calls
+2. Process creation
+3. Program execution
+4. Parent child synchronization
+5. Error handling
+6. System call monitoring
+7. Run all
+0. Exit
+Enter choice: 
